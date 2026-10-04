@@ -1,0 +1,20 @@
+
+
+{
+  "name": "c2-program-monitoring-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "C2 Program Monitoring and Alert System",
+  "main": "watchdog.js",
+  "scripts": {
+    "start": "node watchdog.js",
+    "test-email": "node email.js",
+    "test-whatsapp": "node whatsapp.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
